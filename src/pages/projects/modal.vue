@@ -1,5 +1,5 @@
 <script lang="ts">
-import Modal from '~/components/testing/FlippedScriptModal.vue'
+import Modal from '~/components/project/modal.vue'
 export default {
   name: 'App',
   components: { Modal },
