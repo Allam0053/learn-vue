@@ -1,5 +1,6 @@
 <template>
   <MyComponent />
+  <DeepReactivity />
 </template>
 
 <route lang="yaml">

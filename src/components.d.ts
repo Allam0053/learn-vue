@@ -7,10 +7,16 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Block: typeof import('./components/game/reaction/Block.vue')['default']
+    DeepReactivity: typeof import('./components/testing/DeepReactivity.vue')['default']
+    FlippedScriptModal: typeof import('./components/testing/FlippedScriptModal.vue')['default']
+    Modal: typeof import('./components/project/modal/Modal.vue')['default']
     MyComponent: typeof import('./components/MyComponent.vue')['default']
     README: typeof import('./components/README.md')['default']
+    Results: typeof import('./components/game/reaction/Results.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SearchForm: typeof import('./components/SearchForm.vue')['default']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']

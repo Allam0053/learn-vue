@@ -15,7 +15,9 @@ const notifyMouseOutFromDiv = () => {
 }
 
 const handleMouseOver = (event) => {
-  mousePosition.value = { x: event.offsetX, y: event.offsetY }
+  // mousePosition.value = { x: event.offsetX, y: event.offsetY }
+  mousePosition.value.x = event.offsetX
+  mousePosition.value.y = event.offsetY
 }
 
 onMounted(() => {
